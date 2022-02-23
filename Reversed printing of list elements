@@ -1,0 +1,8 @@
+l=[]
+n=int(input())
+for i in range(n):
+	x=int(input())
+	l.append(x)
+print("elements:",l,end=" ")
+print()
+print("reversed elements:",list(reversed(l)),end=' ')
